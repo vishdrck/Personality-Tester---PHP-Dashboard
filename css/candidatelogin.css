@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+header{
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	height: 817px;
+}
+
+
+.contact-form{
+  width: 40%;
+  height: 85%;	
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  border:5px double #777;
+}
+
+.contact-form h1{
+  margin-top: 0;
+  margin-left:-15px;
+  color:#000;
+  font-size:40px;
+  font-family:Century Gothic;
+		
+	
+}
+
+.input-group{
+	top: 100px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	
+}
+
+.input-field{
+	width: 450px;
+	padding: 20px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 2px solid #a517ba;
+	outline: none;
+	background: transparent;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
+	
+
+	
+	
+	
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 15px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	outline: none;
+	margin-top: 60px;
+	margin-left: 100px;
+	border-radius: 5px;
+	border: 2px solid #a517ba;
+    transition: 0.6s ease;
+	
+	
+}
+.submit-btn h1:hover{
+	color: #000;
+	
+	
+}
+
+.submit-btn h1{
+  color:#fff;
+  font-size:20px;
+  font-family:Century Gothic;
+	font-weight: bold;
+}
+
+.contact-form h2{
+  
+  margin-top: 20px;
+  margin-left:-133px;
+  color:#777;
+  font-size:18px;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  
+		
+	
+}
+#custom-button {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 10px 10px;
+  color: #777;
+  background-color: #fff;
+  border: 2px solid #a517ba;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.6s ease;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-size: 16px;
+}
+
+#custom-button:hover {
+  background-color: #a517ba;
+  color: #fff;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-size: 14px;
+  color: #777;
+}
+
+
+.footer{
+	background: linear-gradient(to right, #a517ba, #5f1782);
+	position:relative;
+	height:180px;
+	margin-top:-150px;
+	clear:both;
+}
+.footer h1{
+	color:#FFF;
+	font-size:18px;
+	margin-left:1200px;
+	padding-top:15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#twitter{
+	float:right;
+	margin-top:15px;
+	margin-right:25px;
+}
+
+#twitter:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+#instagram{
+	float:right;
+	margin-top:15px;
+	margin-right:30px;
+}
+
+#instagram:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+#facebook{
+	float:right;
+	margin-top:15px;
+	margin-right:35px;
+}
+
+#facebook:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+#email{
+	float:right;
+	margin-top:15px;
+	margin-right:40px;
+
+}
+
+#email:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+.footer h2{
+	color:#FFF;
+	font-size:18px;
+	margin-left:30px;
+	margin-top:-20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+.footer h3{
+	color:#000;
+	font-size:20px;
+	margin-left:600px;
+	margin-top:-140px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
